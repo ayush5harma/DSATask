@@ -50,4 +50,4 @@ root.left.right = TreeNode(12)
 root.left.right.left = TreeNode(10) 
 root.left.right.right = TreeNode(14) 
 target = root.left.right 
-distanceK(root, target, 2)
+print(distanceK(root, target, 2))
